@@ -64,3 +64,20 @@ Além do uso individual, a solução pode ser aplicada em contextos educacionais
 Em um contexto mais amplo, pequenas empresas, organizadores de eventos ou instituições de ensino podem utilizar uma ferramenta semelhante para gerenciar sua agenda de eventos, melhorar a comunicação e evitar conflitos de datas ou informações.
 
 Esse projeto surge a partir da necessidade de organização e controle de atividades em uma rotina que envolve estudo, trabalho e outras responsabilidades, demonstrando como uma solução simples pode contribuir para melhorar o gerenciamento do tempo e das tarefas do dia a dia.
+
+# Projeto físico do banco de dados
+
+O banco de dados do sistema foi projetado de forma simples e eficiente, contendo uma tabela principal chamada "eventos", responsável por armazenar as informações dos eventos cadastrados.
+
+A tabela possui os seguintes campos:
+
+- id: identificador único do evento, definido como chave primária e com incremento automático.
+- nome: armazena o nome do evento, sendo um campo obrigatório.
+- data: representa a data do evento, utilizando o tipo DATE.
+- local: indica onde o evento será realizado, também sendo obrigatório.
+- descricao: campo opcional utilizado para detalhar o evento.
+- status: indica a situação do evento, com valor padrão "Agendado".
+
+Foram aplicadas restrições de integridade, como o uso de NOT NULL em campos essenciais e uma restrição CHECK para limitar os valores possíveis do status, garantindo maior consistência dos dados.
+
+Essas decisões foram tomadas para garantir que a integridade, organização e confiabilidade das informações armazenadas no sistema.
