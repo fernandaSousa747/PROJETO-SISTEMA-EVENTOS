@@ -81,3 +81,47 @@ A tabela possui os seguintes campos:
 Foram aplicadas restrições de integridade, como o uso de NOT NULL em campos essenciais e uma restrição CHECK para limitar os valores possíveis do status, garantindo maior consistência dos dados.
 
 Essas decisões foram tomadas para garantir que a integridade, organização e confiabilidade das informações armazenadas no sistema.
+
+## Wireframe e Sitemap
+
+O wireframe do sistema foi desenvolvido com o objetivo de representar, de forma simples e direta, as principais telas e o fluxo de navegação do sistema de gerenciamento de eventos. Seguindo a proposta da atividade, foi optado por um modelo de baixa fidelidade (low-fidelity), priorizando a estrutura, organização das informações e usabilidade, sem foco em aspectos visuais ou estéticos.
+
+As telas foram projetadas para ambiente desktop, inicialmente, considerando uma navegação clara e objetiva entre as funcionalidades principais do sistema.
+
+### Telas desenvolvidas
+
+O sistema possui quatro telas principais:
+
+1. Tela Inicial
+A tela inicial apresenta as opções principais do sistema, permitindo ao usuário escolher entre visualizar os eventos cadastrados ou cadastrar um novo evento e também saiba mais sobre as possibilidades de uso do sistema. Essa tela funciona como ponto de entrada do sistema.
+
+2. Tela de Listagem de Eventos
+Exibe os eventos cadastrados em formato de lista, contendo informações como nome, data, local e status. Também disponibiliza ações como editar e remover eventos, além da opção de cadastrar um novo evento.
+
+3. Tela de Cadastro de Evento
+Permite ao usuário inserir as informações de um novo evento, como nome, data, local, descrição e status. Após o preenchimento, o usuário pode salvar ou cancelar a operação.
+
+4. Tela de Edição de Evento
+Apresenta os dados de um evento já cadastrado, permitindo sua atualização ou exclusão. Essa tela facilita a manutenção das informações no sistema.
+
+### Fluxo de navegação (Sitemap)
+
+O fluxo do sistema foi pensado de forma simples e funcional, garantindo uma navegação intuitiva entre as telas:
+
+- A partir da tela inicial, o usuário pode acessar a listagem de eventos ou o cadastro de um novo evento;
+- Na tela de listagem, é possível editar, remover ou cadastrar novos eventos;
+- As telas de cadastro e edição retornam à listagem após a realização das ações.
+
+Esse fluxo garante que o usuário consiga realizar todas as operações principais do sistema de forma rápida e organizada.
+
+### Usabilidade, consistência e acessibilidade
+
+O wireframe foi desenvolvido com foco na clareza e facilidade de uso, utilizando uma estrutura simples e padronizada entre as telas. Os elementos foram organizados de forma consistente, mantendo a mesma lógica de navegação em todo o sistema.
+
+A simplicidade do layout contribui para uma melhor compreensão das funcionalidades, tornando o sistema mais acessível, mesmo para usuários com pouca experiência.
+
+### Observação
+
+O wireframe completo do sistema está disponível no repositório no arquivo:
+
+- wireframe e sitemap.pdf
